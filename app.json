@@ -1,12 +1,6 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "nlw_mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,8 +15,12 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
+    "platforms": [
+      "android"
+    ],
+    "android": {
+      "package": "com.alrlima.com.nwl_mobile",
+      "versionCode": 1
     }
   }
 }

@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  nlw_mobile:
+    image: nlw_mobile
+    build: .
+    # environment:
+    #   NODE_ENV: production
+    # ports:
+    #   - 19000
